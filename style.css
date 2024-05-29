@@ -1,0 +1,109 @@
+@font-face {
+  font-family: lovefont;
+  src: url(lovefont.ttf);
+}
+
+#fonttest {
+  font-family: lovefont;
+  color: red;
+}
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.homeHov {
+    display: inline-block;
+    position: relative;
+    color: #000000;
+    text-decoration: none;
+}
+.homeHov:after {
+    content: ''; 
+    position: absolute; 
+    width: 100%; 
+    transform: scaleX(0); 
+    height: 2px; 
+    bottom: 0;
+    left: 0;
+    background-color: #1f66b2;
+    transform-origin: bottom right; 
+    transition: transform 0.25s ease-out;
+}
+
+.homeHov:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+
+.bsHov {
+    display: inline-block;
+    position: relative;
+    color: #000000;
+    text-decoration: none;
+}
+.bsHov:after {
+    content: ''; 
+    position: absolute; 
+    width: 100%; 
+    transform: scaleX(0); 
+    height: 2px; 
+    bottom: 0;
+    left: 0;
+    background-color: #1f66b2;
+    transform-origin: bottom right; 
+    transition: transform 0.25s ease-out;
+}
+
+.bsHov:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.testimonialHov {
+    display: inline-block;
+    position: relative;
+    color: #000000;
+    text-decoration: none;
+}
+.testimonialHov:after {
+    content: ''; 
+    position: absolute; 
+    width: 100%; 
+    transform: scaleX(0); 
+    height: 2px; 
+    bottom: 0;
+    left: 0;
+    background-color: #1f66b2;
+    transform-origin: bottom right; 
+    transition: transform 0.25s ease-out;
+}
+
+.testimonialHov:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.dropdownHov {
+  display: inline-block;
+  position: relative;
+  color: #000000;
+}
+.dropdownHov:after {
+  content: ''; 
+  position: absolute; 
+  width: 100%; 
+  transform: scaleX(0); 
+  height: 2px; 
+  bottom: 0;
+  left: 0;
+  background-color: #1f66b2;
+  transform-origin: bottom right; 
+  transition: transform 0.25s ease-out;
+}
+
+.dropdownHov:hover:after {
+transform: scaleX(1);
+transform-origin: bottom left;
+}
