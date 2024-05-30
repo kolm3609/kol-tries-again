@@ -138,3 +138,15 @@ transform-origin: bottom left;
     font-weight: normal;
     font-family: 'Open Sans', sans-serif;
 }
+
+.hometext {
+  font-size: 24px;
+  font-weight: 500;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.hometext2 {
+  font-size: 19px;
+  font-weight: 400;
+  font-family: 'Open Sans', sans-serif;
+}
