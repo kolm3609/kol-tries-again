@@ -151,6 +151,8 @@ transform-origin: bottom left;
   font-size: 19px;
   font-weight: 400;
   font-family: 'Open Sans', sans-serif;
+  color: #000000;
+  text-decoration: none;
 }
 
 .link {
