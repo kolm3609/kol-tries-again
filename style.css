@@ -142,6 +142,8 @@ transform-origin: bottom left;
 .hometext {
   font-size: 24px;
   font-weight: 500;
+  color: #000000;
+  text-decoration: none;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -149,4 +151,20 @@ transform-origin: bottom left;
   font-size: 19px;
   font-weight: 400;
   font-family: 'Open Sans', sans-serif;
+}
+
+.link {
+  font-size: 19px;
+  font-weight: 400;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  color: #248eff;
+  transition: 0.24s ease-in-out;
+  letter-spacing: normal;
+}
+
+.link:hover {
+  letter-spacing: .04em;
+  color: #1500b3;
+  background-color: unset;
 }
